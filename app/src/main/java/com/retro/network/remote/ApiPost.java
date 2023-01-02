@@ -17,7 +17,7 @@ public class ApiPost {
         {
             retrofit = new Retrofit
                     .Builder()
-                    .baseUrl("API_KEY -> with end point")
+                    .baseUrl("API_KEY -> without end point")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
